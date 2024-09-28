@@ -1,0 +1,33 @@
+{
+  "name": "@fsnjs/test",
+  "version": "0.0.1",
+  "description": "A unit testing framework with a cli that supports typescript, modules, and ES6 out of the box.",
+  "main": "dist/just.js",
+  "scripts": {},
+  "workspaces": [
+    "../truthy/dist"
+  ],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsnjs/test.git"
+  },
+  "author": "Alexander Porrello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsnjs/test/issues"
+  },
+  "homepage": "https://github.com/fsnjs/test",
+  "dependencies": {
+    "console-table-printer": "^2.12.1",
+    "coverage": "^0.4.1",
+    "diff": "^7.0.0",
+    "ora": "^8.1.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/diff": "^5.2.2",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  }
+}

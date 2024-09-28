@@ -1,0 +1,38 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.associations": {
+        "tsconfig.build.json": "parcel",
+        "tsconfig.json": "typescript",
+        "tsconfig.spec.json": "test-ts"
+    },
+    "material-icon-theme.folders.associations": {},
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "typescript.suggest.completeFunctionCalls": false,
+    "typescript.suggest.completeJSDocs": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.format.semicolons": "insert",
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+    "prettier.enable": true,
+    "prettier.requireConfig": true,
+    "prettier.configPath": "./.prettierrc",
+    "prettier.ignorePath": "./.prettierignore",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "search.followSymlinks": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/.*": true,
+        "**/dist": true,
+        "out": true // set this to false to include "out" folder in search results
+    },
+    "files.exclude": {
+        "out": false, // set this to true to hide the "out" folder with the compiled JS files
+        "packages/extension": true,
+        "packages/parser": false
+    },
+    "typescript.tsc.autoDetect": "off"
+}
