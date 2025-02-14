@@ -1,8 +1,9 @@
 import chalk from 'chalk';
-import { concatMap, last, map, Observable, of, scan } from 'rxjs';
-import { ExecResult, executeJustCallback } from './execute.js';
-import { Table } from 'console-table-printer';
 import ora from 'ora';
+import { Table } from 'console-table-printer';
+import { concatMap, last, map, Observable, of, scan } from 'rxjs';
+
+import { ExecResult, executeJustCallback } from './execute.js';
 
 export declare type JustCallback = () => void | Promise<any> | Observable<any>;
 

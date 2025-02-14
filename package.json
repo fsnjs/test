@@ -2,7 +2,10 @@
   "name": "@fsnjs/test",
   "version": "0.0.1",
   "description": "A unit testing framework with a cli that supports typescript, modules, and ES6 out of the box.",
-  "main": "dist/just.js",
+  "main": "dist/fsntest.js",
+  "bin": {
+    "fsntest": "bin.js"
+  },
   "scripts": {},
   "workspaces": [
     "../truthy/dist"
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/fsnjs/test",
   "dependencies": {
+    "@fsnjs/truthy": "^1.0.0",
     "console-table-printer": "^2.12.1",
     "coverage": "^0.4.1",
     "diff": "^7.0.0",
